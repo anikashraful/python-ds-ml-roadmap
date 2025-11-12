@@ -1,0 +1,70 @@
+
+## 🛠️ Installation & Setup
+
+To run the code in these notebooks, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/anikashraful/python-ds-ml-roadmap.git
+    cd python-ds-ml-roadmap
+    ```
+
+2.  **(Recommended) Create a virtual environment:**
+    ```bash
+    python -m venv ds-roadmap-env
+    source ds-roadmap-env/bin/activate  # On Windows, use `ds-roadmap-env\Scripts\activate`
+    ```
+
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## 🚀 Usage
+
+Each Jupyter Notebook (`.ipynb` file) is self-contained for its respective week. Simply navigate to the weekly folder and launch Jupyter Lab or Jupyter Notebook:
+
+```bash
+jupyter lab
+# or
+jupyter notebook
+
+
+
+---
+
+### 2. `requirements.txt`
+
+This file lists all the Python packages needed to run the code in your notebooks. You can start with this comprehensive list and it will cover you for most of the year. You can install others (like `torch` or `transformers`) in specific weekly notebooks if needed.
+
+```txt
+# Core & Data Handling
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Data Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+statsmodels>=0.13.0
+xgboost>=1.5.0
+
+# Deep Learning (TensorFlow as the primary choice, you can add PyTorch later)
+tensorflow>=2.7.0
+
+# Jupyter & Development
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipykernel>=6.0.0
+
+# Utilities
+requests>=2.25.0        # For API calls and data downloading
+tqdm>=4.60.0            # For progress bars
+
+# Code Quality
+black>=22.0.0           # Code formatting
+flake8>=4.0.0           # Linting
